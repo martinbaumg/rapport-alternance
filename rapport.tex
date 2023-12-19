@@ -1,10 +1,26 @@
-\documentclass[11pt, a4paper]{article}
+\documentclass[12pt, a4paper]{article}
 \usepackage[french]{babel}
 \usepackage{caption}
 \usepackage{graphicx}
 \usepackage[T1]{fontenc}
 \usepackage{listings}
 \usepackage{geometry}
+\usepackage{wrapfig}
+\usepackage{mwe}
+
+\usepackage{graphicx, wrapfig, calc}
+\input{insbox}
+\usepackage{lipsum}
+
+\usepackage[edges]{forest}
+\forestset{
+  direction switch/.style={
+    for tree={edge+=thick},
+    where level>=1{folder, grow'=0}{for children=forked edge},
+    where level=3{}{draw},
+  },
+}
+
 \geometry{
   left=2.5cm,
   right=2.5cm,
@@ -12,6 +28,18 @@
   bottom=2.5cm,
 }
 \usepackage{pgfplots}
+
+
+
+\usepackage{xcolor}
+\usepackage{xcolor,rotating,epic,eepic}
+\usepackage{tikz-qtree}
+\usetikzlibrary{matrix}
+
+\usepackage{xcolor,rotating,epic,eepic}
+\usepackage{tikz}
+\usepackage[babel=true,kerning=true]{microtype}
+
 
 \usepgfplotslibrary{polar}
 \pgfplotsset{compat=1.12} 
@@ -29,32 +57,34 @@
 \rhead{}
 \chead{}
 \rfoot{\thepage}
-\lfoot{Martin Baumgaertner}
+\lfoot{}
 \cfoot{}
 
+
 \renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\footrulewidth}{0.4pt}
+% \renewcommand{\footrulewidth}{0.4pt}
 
 \begin{document}
 \begin{titlepage}
 	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
 	\center 
-	\textsc{\LARGE iut de colmar}\\[4.5cm] 
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\textwidth]{img/uha.png}
-	\end{figure}
+	\textsc{\LARGE iut de colmar}\\[6.5cm] 
+	
 	\textsc{\Large département réseaux et télécommunications}\\[0.5cm] 
 	\textsc{\large en alternance chez orange}\\[0.5cm]
 	\HRule\\[0.75cm]
 	{\Large\bfseries Connectivité et Innovation : Mon Parcours d'Alternance au sein d'Orange}\\[0.4cm]
 	\HRule\\[0.5cm]
-	\textsc{\large\bfseries candidat : martin baumgaertner\\
+	\textsc{\large candidat : martin baumgaertner\\
 	tuteur universitaire : m. albert\\
-	maître de stage : m. camille }\\[6cm] 
+	maître de stage : m. camille }\\[5cm] 
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=0.2\textwidth]{img/orange.png}
+		\includegraphics[width=0.5\textwidth]{img/uha.png}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.1\textwidth]{img/orange.png}
 	\end{figure}
 
 	\vfill\vfill\vfill
@@ -62,10 +92,11 @@
 	\vfill
 \end{titlepage}
 \newpage
+\pagestyle{empty}
 \begin{remerciements}
-	\textit{Je tiens à exprimer ma sincère gratitude envers toute l'équipe d'Orange chez 
+	\textit{Je tiens à exprimer ma sincère gratitude envers toute l'équipe d'Orange GP67 chez 
 	laquelle j'ai eu le privilège de réaliser mon alternance. Mes remerciements
-	vont particulièrement à Felix Camille et Osman Demir, qui m'ont guidé tout
+	vont particulièrement à Félix Camille et Osman Demir, qui m'ont guidé tout
 	au long de cette expérience enrichissante.}\\
 
 	\textit{Je tiens également à remercier l'ensemble de mes collègues pour leur accueil
@@ -76,46 +107,277 @@
 	l'IUT de Colmar pour leur accompagnement et leur suivi tout au
 	long de cette alternance.}\\
 
-	\textit{Merci à tous ceux qui ont rendu cette expérience aussi mémorable et formatrice.}
+	\textit{Merci à tous ceux qui ont rendu cette expérience aussi mémorable que formatrice.}
 	
 \end{remerciements}
 \newpage
 \tableofcontents
 \listoffigures
 \newpage
+\pagestyle{fancy}
 \section{Préambule}
-Je suis ravi de présenter ce rapport, fruit de mon expérience en alternance au sein d'Orange.
+Je suis ravi de présenter ce rapport, fruit de mon expérience en alternance au sein d'Orange.\\
 
 Orange est un leader mondial dans les télécommunications et les services mobiles.
 L'entreprise, engagée dans l'innovation et la connectivité, joue un rôle majeur dans la
-transformation numérique en offrant des solutions variées aux particuliers et aux entreprises.
+transformation numérique en offrant des solutions variées aux particuliers et aux entreprises.\\
 
-Pendant mon alternance, j'ai travaillé au sein du département UCI EST
+Pendant mon alternance, j'ai travaillé au sein du département UCI\footnote{\vspace{-1cm}UCI EST : Unité Client Intervention} EST
 d'Orange. En tant que technicien d'invervention grand public, j'ai contribué aux projets de l'équipe, collaboré avec des
 professionnels chevronnés et développé une compréhension approfondie des défis et des opportunités
-au sein de cette entreprise.
+au sein de cette entreprise.\\
 
 L'engagement d'Orange envers l'excellence et l'innovation a profondément influencé ma vision
 professionnelle. Ce rapport vise à refléter et à analyser les enseignements tirés de cette
 expérience, mettant en lumière les aspects les plus pertinents de mon parcours au sein de
 cette entreprise emblématique.\\
 
-Au sein de mon alternance j'ai pu réaliser différentes missions
-toutes plus importantes les unes que les autres. J'ai pu travailler sur des projets
+Tout au long de mon alternance j'ai pu réaliser différentes missions
+toutes plus importantes les unes que les autres. J'ai travaillé sur des projets
 d'envergure, et j'ai pu découvrir le monde de l'entreprise.
 Je m'occupais principalement d'installation d'offres
 Connect Pro, prestation installation experte, 
 de contrôles de qualité d'installation et de dépannages.\\
 
 
+Au cours de ce rapport, je vais détailler les différentes facettes de mon expérience,
+en commençant par une rétrospective de l'histoire d'Orange, suivi d'une exploration
+approfondie du département UCI EST et des missions cruciales auxquelles
+j'ai participé.\\
+Après avoir présenté ce contexte, je partagerai une analyse approfondie
+de mon expérience, en mettant en évidence les enseignements tirés et
+les compétences développées. Cette réflexion sera étayée par des exemples
+concrets de missions spécifiques, illustrant ainsi la manière dont mon
+alternance chez Orange a façonné mon expérience professionnelle.\\
+Le rapport se terminera par une synthèse de mes contributions à
+l'innovation et à la stratégie globale d'Orange, ainsi que par un
+bilan personnel où je partagerai mes réflexions sur cette expérience
+enrichissante et les perspectives qu'elle ouvre pour l'avenir.\\
+Ainsi, ce rapport sera une plongée détaillée dans mon parcours
+d'alternance chez Orange.
+
+
 \newpage
 \section{Présentation de l'entreprise}
 \subsection{Historique}
+L'histoire d'Orange est emblématique en France, ayant évolué au gré des
+innovations technologiques et des réformes structurelles. Originellement connue
+sous le nom des PTT (Postes, Télégraphes et Téléphones), 
+l'entreprise a été le pilier des services de communication en
+France. En 1990, les PTT ont été divisés en deux entités distinctes : La Poste et France Télécom.
+C'est d'ailleurs pour cette raison que partout en France, les bureaux de postes 
+sont très souvent situés à côtés de centraux téléphoniques d'Orange.\\
+
+A la date du 1er juillet 2013, France Télécom deviendra Orange, et ce dans le monde entier.
+Ainsi, nous pouvons retrouver Orange dans pas moins de 26 pays à travers le monde et 
+compte près de plus de 140 000 collaborateurs.\\
+
+Le siège social d'Orange est situé à Issy-les-Moulineaux,
+et est dirigé par Christel Heydemann. Pour ma part, 
+j'ai effectué mon alternance en étant rattaché 
+à l'agence de Schiltigheim. Nous pouvons retrouver 
+dans ces bureaux de nombreux collaborateurs et 
+plusieurs équipes, notamment des chargés d'affaires
+et des techniciens d'intervention. Au sein de l'UCI EST,
+nous retrouvons plusieurs équipes d'interventions :\\
+
+\begin{itemize}
+	\item Equipe d'invervention sur le réseau structurant 
+	\item Equipe d'intervention entreprise
+	\item Equipe d'intervention grand public\\
+\end{itemize}
+
+Pour ma part, j'ai effectué mon alternance en tant que
+technicien d'intervention grand public dans l'équipe
+d'Osman Demir. 
+
+
 \subsection{Mon service}
+Comme décrit précédemment, j'ai effectué mon alternance
+au dans l'équipe d'intervention grand public 
+du bas-rhin. En tant que technicien d'intervention grand public,
+nous pouvions êtres amenés à réaliser des missions diverses et 
+variées. Nous étions chargés des 
+expertises, des installations, des dépannages et 
+des contrôles de qualité.\\
+
+Le but d'une expertise FTTH\footnote{FTTH : Fiber To The Home} est de se rendre chez un client
+qui a déjà eu plusieurs rendez-vous SAV et qui n'a pas eu de solution. 
+Notre objectif est alors d'en apporter une et que l'on 
+soit le dernier technicien à se rendre chez le client.\\
+
+Les installations que nous sommes amenés à réaliser étaient
+la mise en service de l'offre Connect Pro d'Orange et 
+la prestation installation experte (seront détaillées dans la partie suivante).\\
+
+
+\newpage
 \subsection{Organigramme}
+\begin{figure}[h]
+	\centering
+	\begin{forest}
+		direction switch
+		[\textbf{Équipe grand public 67 Resp. Thomas Mall}
+		[Responsables d'équipe
+			[Osman Demir
+			[Michael Forest]
+			[Cédric Berron]
+			]
+		]
+		[Techniciens
+			[\textbf{Martin Baumgaertner}]
+			[Camille Félix]
+			[Pascal Bonney]
+			[Brahim Bourouaieh]
+			[Philippe Caspar]
+			[Alexis De Sousa]
+			[Julien Hecklen]
+			[Arzu Karakas]
+			[Moudy Toure]
+			[Frédéric Vaz]
+		]
+		]
+		]
+	\end{forest}
+	\caption{L'équipe GP 67}
+\end{figure}
+Nous pouvons voir ci-dessus que je me trouve dans 
+une équipe de 10 techniciens d'intervention grand public, 
+couvrant tout le département du bas-rhin. Nous sommes 
+la plupart du temps répartis par zones géographiques. 
+Par exemple Félix Camille est du secteur de Hagenau, tandis 
+que je suis du secteur de Strasbourg. Être réparti par 
+secteur ne signifie pas que nous sommes limités à Strasbourg 
+par exemple. Je peux très bien être le matin à Strasbourg 
+et l'après-midi à Molsheim.\\
 
 \newpage 
 \section{Mes missions}
+\subsection{Introduction}
+Au cours de mon alternance de 2 ans. J'ai eu la chance
+de pouvoir effectuer des missions riches en 
+enseignements, avec toujours des cas différents. 
+Ma première année s'est déroulée en doublure avec 
+mon tuteur Félix. Il m'a fait monter en compétences
+et m'a permis de découvrir le monde de l'entreprise.
+C'est grâce à lui que j'ai pu acquérir le
+nécessaires pour être autonome. Suite à cette première
+année, j'ai pu réaliser des missions seul, qui ont aussi 
+été très enrichissantes. Car même si Félix m'a appris 
+beaucoup de choses, il y a toujours des cas complexes 
+sur lesquels nous n'étions jamais tombé en 1 an et
+qui nécessitent de la réflexion. Grâce à son soutien 
+téléphonique en cas de besoin, j'ai pu alors 
+devenir autonome de plus en plus. 
+
+\subsection{Ma première installation}
+A mon arrivée dans l'équipe, et mes débuts chez Orange, 
+je me rappelerai toujours de ma première installation 
+avec Félix. C'était dans une mairie dans le nord
+de l'Alsace qui avait la particularité d'avoir 
+souscrit à 2 offres Connect Pro (pour deux services différents) 
+alors qu'ils étaient dans les mêmes locaux. Je me rappelle que Félix m'avait
+montré comment faire la première puis, il m'avait laissé
+faire la seconde. Assez facile me direz-vous, mais
+c'était sans compter sur le stress de découvrir 
+une nouvelle solution, avec un "process"\footnote{Process : terme utilisé chez Orange pour désigner une procédure spécifique à suivre} que je ne connaissais 
+pas. C'était les débuts de l'apprentissage. 
+
+\subsection{Connect Pro}
+\subsubsection{Présentation}
+L'offre "Connect Pro" d'Orange représente une solution
+de téléphonie IP novatrice, spécialement conçue pour
+les petites entreprises. Elle offre la flexibilité et
+la facilité d'utilisation dont ces entreprises ont
+besoin pour gérer leurs communications de manière
+efficace, sans la nécessité d'investir dans un
+serveur IPBX physique sur site. Tout est géré de
+manière transparente dans le cloud, grâce aux
+serveurs d'Orange, à partir de la Livebox
+que nous installons.\\
+
+Ce qui distingue cette offre, c'est sa
+personnalisation approfondie. Les clients ont
+la possibilité de créer des messages personnalisés 
+fait par un studio d'enregistrement professionnel 
+pour accueillir leurs appelants, des prédécrochés
+informatifs, des messages d'attente professionnels
+et des répondeurs adaptés à leurs besoins spécifiques.
+Cela leurs permet de fournir une expérience de
+communication personnalisée à leurs clients
+et partenaires.\\
+
+Mais ce n'est pas tout, car la personnalisation
+va encore plus loin. Par exemple, nous
+pouvons paramétrer un envoi automatique de
+mails à chaque fois qu'un message est déposé sur
+le répondeur. Ces mails peuvent contenir le
+message vocal en pièce jointe, ce qui
+facilite la gestion et le suivi des messages importants.\\
+
+\newpage
+\begingroup
+\setlength{\intextsep}{0pt}
+\begin{wrapfigure}[20]{R}{6.5cm}
+	\includegraphics[scale=.5]{img/mittel.jpg}
+	\caption{Poste Mittel 67i}
+\end{wrapfigure}
+De plus, "Connect Pro" propose une variété
+d'options en matière de téléphones, que
+ce soit des téléphones sans fil pour
+une mobilité accrue ou des téléphones
+filaires pour une utilisation plus
+traditionnelle. Cela signifie que nous pouvons
+adapter la solution de téléphonie exactement aux besoins
+des clients et à leur environnement de travail.
+Ci-contre nous pouvons voir un poste Mittel 67i
+qui est un poste filaire, ainsi qu'un poste sans fil
+Yealink W76P.\\
+\begin{wrapfigure}[20]{R}{6.5cm}
+	\includegraphics[scale=.6]{img/yealink.png}
+	\caption{Poste Yealink W76P}
+\end{wrapfigure}
+
+Bien sûr, il est important de noter que l'offre
+"Connect Pro" d'Orange propose une flexibilité en
+fonction de la technologie d'accès disponible dans
+la zone du client. Pour les entreprises situées dans des
+zones couvertes par la fibre optique, l'offre
+"Connect Pro Fibre" offre la possibilité de
+bénéficier de jusqu'à 20 lignes téléphoniques.\\
+
+Cependant, il est important de noter qu'il
+existe également une version de l'offre "Connect Pro"
+pour les entreprises situées dans des zones
+couvertes par le cuivre. L'offre "Connect Pro Cuivre"
+est disponible dans ces régions, mais elle est
+généralement limitée en termes de capacité et de
+fonctionnalités par rapport à la version fibre.
+En général, les entreprises optent pour l'offre
+"Connect Pro Cuivre" uniquement lorsqu'elles ont
+des besoins de communication très basiques, tels
+que 1 ou 2 postes de travail, car les réseaux
+cuivre ne permettent pas une utilisation aussi
+étendue ni des fonctionnalités aussi avancées 
+que la fibre.\\
+
+En fin de compte, le choix entre "Connect Pro
+Fibre" et "Connect Pro Cuivre" dépendra de la
+disponibilité de la technologie dans votre région,
+ainsi que de vos besoins en matière de communication.
+Les entreprises ayant des besoins plus importants
+et souhaitant exploiter pleinement les fonctionnalités
+offertes par "Connect Pro" opteront généralement
+pour la fibre, tandis que celles situées dans des
+zones couvertes par le cuivre et ayant des besoins
+plus modestes pourront envisager la version cuivre
+de l'offre. Il est toujours recommandé de consulter
+Orange pour obtenir des informations spécifiques sur
+les offres disponibles dans votre région.
+\par\endgroup
+
+
+
 
 
 
