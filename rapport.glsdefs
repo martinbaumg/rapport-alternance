@@ -1,0 +1,28 @@
+\glsdefs@newdocentry{terme1}%
+{%
+name={Terme 1},%
+sort={Terme 1},%
+type={main},%
+first={Terme 1},%
+firstplural={Terme 1s},%
+text={Terme 1},%
+plural={Terme 1s},%
+description={Description du terme 1},%
+descriptionplural={Description du terme 1},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+

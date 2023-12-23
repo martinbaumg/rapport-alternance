@@ -1,11 +1,20 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{\numberline {1}Préambule}{3}{section.1}%
-\contentsline {section}{\numberline {2}Présentation de l'entreprise}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Historique}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Mon service}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Organigramme}{5}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Mes missions}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Introduction}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Ma première installation}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Connect Pro}{6}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Présentation}{6}{subsubsection.3.3.1}%
+\contentsline {section}{\numberline {1}Préambule}{4}{section.1}%
+\contentsline {section}{\numberline {2}Présentation de l'entreprise}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Historique}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Mon service}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Organigramme}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Mes missions}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Introduction}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Ma première installation}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Connect Pro}{7}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Présentation}{7}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Installations Connect Pro}{9}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Tests et vérifications}{10}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Difficultés rencontrées}{10}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Ma contribution à l'innovation}{11}{subsubsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.4}Installations expertes}{12}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Présentation}{12}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}La prestation installation experte}{12}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Ma mission chez Wrigley}{12}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Annexes}{12}{section.4}%
