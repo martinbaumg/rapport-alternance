@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.23)  23 DEC 2023 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.23)  24 DEC 2023 18:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -883,12 +883,12 @@ Package hyperref Info: Link coloring ON on input line 68.
 \@outlinefile=\write5
 \openout5 = `rapport.out'.
 
-<img/uha.png, id=83, 1027.84pt x 225.84375pt>
+<img/uha.png, id=103, 1027.84pt x 225.84375pt>
 File: img/uha.png Graphic file (type png)
 <use img/uha.png>
 Package pdftex.def Info: img/uha.png  used on input line 84.
 (pdftex.def)             Requested size: 227.62206pt x 50.01315pt.
-<img/orange.png, id=85, 2055.68pt x 2055.68pt>
+<img/orange.png, id=105, 2055.68pt x 2055.68pt>
 File: img/orange.png Graphic file (type png)
 <use img/orange.png>
 Package pdftex.def Info: img/orange.png  used on input line 88.
@@ -1013,7 +1013,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 312--319
  []
 
 [7]
-<img/mittel.jpg, id=181, 372.64218pt x 246.1697pt>
+<img/mittel.jpg, id=209, 372.64218pt x 246.1697pt>
 File: img/mittel.jpg Graphic file (type jpg)
 <use img/mittel.jpg>
 Package pdftex.def Info: img/mittel.jpg  used on input line 324.
@@ -1023,7 +1023,7 @@ Overfull \hbox (1.37773pt too wide) in paragraph at lines 324--325
 [][] 
  []
 
-<img/yealink.png, id=182, 376.40625pt x 376.40625pt>
+<img/yealink.png, id=210, 376.40625pt x 376.40625pt>
 File: img/yealink.png Graphic file (type png)
 <use img/yealink.png>
 Package pdftex.def Info: img/yealink.png  used on input line 341.
@@ -1151,12 +1151,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 399--406
 
  []
 
-<img/accueil.png, id=189, 246.9225pt x 109.91063pt>
+<img/accueil.png, id=217, 246.9225pt x 109.91063pt>
 File: img/accueil.png Graphic file (type png)
 <use img/accueil.png>
 Package pdftex.def Info: img/accueil.png  used on input line 411.
 (pdftex.def)             Requested size: 320.99918pt x 142.88377pt.
-<img/configuration.jpg, id=190, 493.845pt x 180.675pt>
+<img/configuration.jpg, id=218, 493.845pt x 180.675pt>
 File: img/configuration.jpg Graphic file (type jpg)
 <use img/configuration.jpg>
 Package pdftex.def Info: img/configuration.jpg  used on input line 421.
@@ -1182,7 +1182,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 450--454
  []
 
 [10]
-<img/maquette.png, id=201, 602.25pt x 1505.625pt>
+<img/maquette.png, id=229, 602.25pt x 1505.625pt>
 File: img/maquette.png Graphic file (type png)
 <use img/maquette.png>
 Package pdftex.def Info: img/maquette.png  used on input line 484.
@@ -1208,22 +1208,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--538
  []
 
 [12]
-<img/pbc.jpg, id=212, 1084.05pt x 1084.05pt>
+<img/pbc.jpg, id=240, 1084.05pt x 1084.05pt>
 File: img/pbc.jpg Graphic file (type jpg)
 <use img/pbc.jpg>
 Package pdftex.def Info: img/pbc.jpg  used on input line 547.
 (pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
-<img/pbp.jpg, id=213, 1084.05pt x 1084.05pt>
+<img/pbp.jpg, id=241, 1084.05pt x 1084.05pt>
 File: img/pbp.jpg Graphic file (type jpg)
 <use img/pbp.jpg>
 Package pdftex.def Info: img/pbp.jpg  used on input line 552.
 (pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
-<img/pmi.jpg, id=214, 1084.05pt x 1084.05pt>
+<img/pmi.jpg, id=242, 1084.05pt x 1084.05pt>
 File: img/pmi.jpg Graphic file (type jpg)
 <use img/pmi.jpg>
 Package pdftex.def Info: img/pmi.jpg  used on input line 566.
 (pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
-<img/pmz.jpg, id=215, 1084.05pt x 1084.05pt>
+<img/pmz.jpg, id=243, 1084.05pt x 1084.05pt>
 File: img/pmz.jpg Graphic file (type jpg)
 <use img/pmz.jpg>
 Package pdftex.def Info: img/pmz.jpg  used on input line 571.
@@ -1233,23 +1233,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 587--598
 
  []
 
-[14] [15] (./rapport.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--614
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--634
+
+ []
+
+[14] [15]
+<img/bok.jpg, id=257, 1084.05pt x 1084.05pt>
+File: img/bok.jpg Graphic file (type jpg)
+<use img/bok.jpg>
+Package pdftex.def Info: img/bok.jpg  used on input line 734.
+(pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
+<img/bpb.jpg, id=258, 1084.05pt x 1084.05pt>
+File: img/bpb.jpg Graphic file (type jpg)
+<use img/bpb.jpg>
+Package pdftex.def Info: img/bpb.jpg  used on input line 739.
+(pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--754
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 755--760
+
+ []
+
+[16 <./img/bok.jpg> <./img/bpb.jpg>] [17] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: BD12CDDB4128CA06DEC7E62E858EFD95;2885.
+(rerunfilecheck)             Checksum: 8857D925B014CF304A1C7D1E644A0492;3766.
  ) 
 Here is how much of TeX's memory you used:
- 50605 strings out of 476025
- 1197284 string characters out of 5790017
+ 50647 strings out of 476025
+ 1197890 string characters out of 5790017
  1862388 words of memory out of 5000000
- 70180 multiletter control sequences out of 15000+600000
- 531352 words of font info for 129 fonts, out of 8000000 for 9000
+ 70199 multiletter control sequences out of 15000+600000
+ 532551 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  130i,11n,134p,1657b,3282s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on rapport.pdf (16 pages, 2198220 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on rapport.pdf (18 pages, 2979987 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 236 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 38108 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 40206 words of extra memory for PDF output out of 42996 (max. 10000000)
 
