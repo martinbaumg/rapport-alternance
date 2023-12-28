@@ -21,5 +21,13 @@
 \contentsline {subsubsection}{\numberline {3.5.1}Explications}{15}{subsubsection.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.5.2}VQSE à froid}{15}{subsubsection.3.5.2}%
 \contentsline {subsubsection}{\numberline {3.5.3}VQSE à chaud}{15}{subsubsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.6}Ma mission chez Wrigley}{17}{subsection.3.6}%
-\contentsline {section}{\numberline {4}Annexes}{17}{section.4}%
+\contentsline {subsection}{\numberline {3.6}Les dépannages}{17}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Mon process de dépannage fibre}{17}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Les SAV OPO}{18}{subsubsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.7}Les expertises}{19}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Ma mission chez Wrigley}{20}{subsection.3.8}%
+\contentsline {subsubsection}{\numberline {3.8.1}Mise en contexte}{20}{subsubsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.2}Objectif}{20}{subsubsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.3}Déroulement}{20}{subsubsection.3.8.3}%
+\contentsline {subsubsection}{\numberline {3.8.4}Corrélations avec le B.U.T.}{21}{subsubsection.3.8.4}%
+\contentsline {section}{\numberline {4}Annexes}{22}{section.4}%

@@ -269,8 +269,12 @@ année, j'ai pu réaliser des missions seul, qui ont aussi
 beaucoup de choses, il y a toujours des cas complexes 
 sur lesquels nous n'étions jamais tombé en 1 an et
 qui nécessitent de la réflexion. Grâce à son soutien 
-téléphonique en cas de besoin, j'ai pu alors 
-devenir de plus en plus autonome. 
+téléphonique en cas de besoin, j'ai pu alors
+devenir de plus en plus autonome. Toutes les missions 
+que je vais présenter ci-après sont ma vie professionnelle
+de tous les jours. Il y aura qu'une seule mission 
+ponctuelle que j'ai effectué pendant 4 jours que je 
+vous présenterai en dernière partie.
 
 \subsection{Ma première installation}
 A mon arrivée dans l'équipe, et mes débuts chez Orange, 
@@ -774,6 +778,248 @@ de nos clients.
 
 
 \newpage
+\subsection{Les dépannages}
+Alors que nous avons passé en revue les processus d'installation et
+de contrôle qui constituent les fondements de nos services FTTH,
+il est tout aussi essentiel d'explorer l'autre
+facette de notre engagement envers nos clients : les dépannages.
+En effet, même avec des installations de haute qualité et des
+contrôles rigoureux, des problèmes peuvent parfois survenir.
+Dans cette section, nous aborderons en détail
+les différents types de dépannages FTTH afin de garantir une expérience sans
+faille à nos clients.\\
+
+Je procède à deux types de dépannages : les dépannages fibre pour les 
+clients particuliers, et les dépannages d'une ancienne offre de téléphonie 
+d'Orange : OPO (Optimal Pro Office). Ce qui est pratique c'est que nous 
+avons des outils de pré-diagnostique qui nous permettent de faire des tests
+à distance et de savoir à l'avance où le problème pourrait se situer.
+
+\subsubsection{Mon process de dépannage fibre}
+Chaque technicien a sa propre manière de travailler mais tout en 
+suivant le mode opératoire fournit par Orange. Pour ma part, 
+lorsque j'ai un dépannage à faire, si je n'ai pas d'infos en commentaires,
+j'appelle toujours le client. Je lui demande alors comment s'est-il
+rendu compte de la panne, l'heure et le jour à laquelle il a 
+constaté le problème. Je lui demande également s'il n'a pas fait de travaux
+ou déplacer des meubles récemment. Si la panne est survenue après
+des travaux, il est fort probable que le client ait sectionné la fibre.
+Dans ce cas, je me rends chez le client pour tenter de ressouder si possible, 
+ou alors si le problème se situe
+en D2\footnote{D2 : Réseau de distribution entre le PM et le PB} 
+j'appelle Orange pour qu'ils s'occupent de faire intervenir l'opérateur
+d'infrastructures.\\
+
+Si le client au téléphone déclare ne pas avoir
+effectué d'actions particulières, je me dirige
+vers le point de mutualisation pour effectuer
+une mesure à l'aide du JDSU OLP. Cet appareil
+permet de quantifier l'atténuation du signal
+entre l'OLT et le PM. Lorsque la mesure affiche
+une valeur aux alentours de -18 dBm, nous pouvons
+conclure que le problème réside entre le PM et
+le client, excluant ainsi tout dysfonctionnement
+du coupleur au PM. En principe nous pouvons savoir 
+s'il y a un problème de coupleur ou de cable de transport 
+en fonction de résultats de tests que nous faisant. Si nous 
+voyons qu'aux mêmes heures, plusieurs pannes ont lieu sur
+le même coupleur, nous pouvons alors en déduire que le problème
+vient du coupleur.\\
+
+Ensuite, je branche mon laser sur la prise du
+client (PM) et me rends au point de branchement
+(PB) pour vérifier la présence de la lumière
+du laser. Si elle est absente, cela indique
+un problème situé entre le PM et le PB.
+Si, au contraire, la lumière est visible,
+je me rends chez le client pour vérifier
+la présence de la lumière à son niveau.
+Si la lumière n'est pas perceptible chez le
+client, cela signifie que le problème se
+situe entre le PB et le client. En revanche,
+si la lumière est visible chez le client,
+je procède au rebranchement de la jarretière
+optique du PM et j'effectue une mesure à l'OLP
+depuis la PTO du client. En suivant ces étapes
+méthodiques, il devient généralement possible
+de diagnostiquer l'origine du problème de
+manière efficace.
+
+\newpage
+\subsubsection{Les SAV OPO}
+Découvrons maintenant le SAV OPO, l'ancienne offre de
+téléphonie d'Orange qui, bien que moins sophistiquée
+que Connect Pro, a joué un rôle essentiel dans nos offres
+de téléphonie. L'offre est toujours en service pour les clients
+qui l'ont souscrite avant l'arrivée de Connect Pro. Et donc, 
+nous avons toujours des interventions à faire sur cette offre.\\
+
+Parmi les défis majeurs auxquels les utilisateurs de l'Offre de
+Téléphonie OPO ont été confrontés, les soucis de communications
+blanches se sont avérés être l'une des préoccupations les plus
+récurrentes. Ces dernières se traduisent par des 
+coupures inattendues ou une qualité de communication
+altérée. Ces problèmes peuvent être frustrants, mais ils ont été
+souvent causés par deux raisons principales.\\
+
+La première raison réside dans un problème de surcharge du
+processeur de la Livebox, l'équipement central de notre offre
+de téléphonie. Lorsque le processeur de la Livebox est surchargé,
+il peut avoir du mal à gérer efficacement les appels, ce qui se
+traduit par des interruptions ou une qualité audio médiocre.\\
+
+La deuxième source de soucis de communications blanches était
+liée aux boîtiers ATA (Adaptateur Téléphonique Analogique).
+Ces boîtiers étaient responsables de la conversion du signal
+téléphonique analogique en signal numérique, permettant ainsi
+aux téléphones traditionnels de fonctionner sur la technologie
+numérique. Cependant, des problèmes techniques dans ces boîtiers
+ATA pouvaient entraîner des dysfonctionnements de la communication,
+notamment des coupures ou des interférences.\\
+
+Pour remédier à ces problèmes, la première chose à faire est 
+de vérifier les branchements du client et 
+en général nous nous rendons compte qu'il y a d'anciens 
+boitiers ATA qui ne sont plus essentiels, alors nous 
+les enlevons. Ensuite, nous
+nous connectons sur l'interface d'administration de la livebox 
+pour vérifier s'il ne manque pas une mise à jour ou si le 
+processeur n'est pas surchargé. Si toutefois, nous 
+ne parvenons pas à se connecter à la boxe, nous pouvons 
+toujours appeler Orange pour qu'ils puissent rentrer 
+à distance dans la boxe en lignes de commandes pour 
+vérifier si des problèmes sont présents.
+Au terme de ces vérifications, il fallait souvent 
+faire une mise à jour ou le remplacement de la Livebox, 
+ce qui résolvait la grande majorité des problèmes.\\
+
+Les soucis de communications blanches dans l'Offre de Téléphonie
+OPO sont gérés avec succès grâce à notre engagement à résoudre
+les problèmes techniques pour garantir une expérience client
+optimale. De plus, nous informons nos clients que ces problèmes peuvent
+être complètement éliminés en optant pour l'offre Connect Pro,
+une solution de téléphonie plus avancée, sans nécessiter une
+augmentation tarifaire significative. Cette transition vers
+Connect Pro offre une expérience de communication plus stable,
+tout en démontrant notre engagement continu à fournir des
+services de téléphonie de qualité et adaptés aux besoins
+changeants de nos clients.
+
+\newpage
+\subsection{Les expertises}
+L'expertise, dans le cadre de nos interventions en télécommunications,
+représente une étape avancée du processus de résolution de problèmes.
+Cette démarche survient généralement en dernier recours, après que
+plusieurs interventions de Service Après-Vente (SAV) n'aient pas
+réussi à résoudre les problèmes rencontrés par le client. Le cheminement
+typique est le suivant : PMS (premier RDV SAV), ROS, ROI puis EXP (Expertise).\\
+
+Lorsque nous entamons une expertise, nous nous rendons généralement
+sur place en compagnie de l'Opérateur d'Infrastructure (OI) qui gère
+la zone d'intervention. L'objectif de l'expertise est de trouver
+une solution définitive au problème du client, de sorte qu'aucune
+autre intervention ne soit nécessaire. Dans certains cas, le problème
+peut être résolu dès la première visite, mais il arrive que des
+techniciens partenaires ne parviennent pas à effectuer le travail de
+manière optimale, ce qui peut entraîner le renvoi du dossier pour
+des niveaux de service supérieurs, passant ainsi par les étapes de
+PMS, ROS, ROI, et enfin EXP.\\
+
+L'expertise est souvent nécessaire lorsque la situation est complexe
+ou qu'il est essentiel de collaborer avec l'Opérateur
+d'Infrastructure pour rétablir la connexion du client. Notre objectif
+lors de l'expertise est de garantir que tous les services du client
+sont rétablis et opérationnels, tout en veillant à ce qu'aucun
+autre problème ne subsiste. 
+
+\newpage
 \subsection{Ma mission chez Wrigley}
+\subsubsection{Mise en contexte}
+En mai 2023, j'ai eu l'opportunité d'effectuer une mission
+ponctuelle chez Wrigley grâce à l'initiative de mon manager au
+sein de l'équipe entreprise du 68. À ce moment-là, l'équipe faisait
+face à un sous-effectif et était confrontée à la tâche de remplacer
+une vingtaine de switchs dans l'entreprise. Mon manager m'a
+contacté pour me proposer cette opportunité, avec l'intention de
+me permettre d'acquérir une expérience nouvelle et de mieux
+comprendre le fonctionnement du monde de l'entreprise et 
+de pouvoir permettre d'aider aussi les collègues du 68. Cette mission
+s'est révélée être une occasion enrichissante de mettre en pratique
+mes compétences et d'explorer un domaine différent de mon travail habituel.
+
+\subsubsection{Objectif}
+L'objectif de cette mission était
+de remplacer une vingtaine de switchs
+Cisco dans toutes les baies de brassage de l'entreprise.
+Dans certains cas, il fallait
+réduire le nombre de switchs, tandis que dans d'autres, il
+était nécessaire d'augmenter leur nombre pour optimiser
+l'infrastructure réseau de Wrigley.
+
+La mission a duré quatre jours, au cours desquels 
+mon collègue Alain et moi-même étions responsables 
+de réaliser l'installation physique
+du matériel, notamment le remplacement des switchs existants.
+Une fois le matériel en place, une étape cruciale de la mission
+était de connecter notre PC en utilisant une connexion série au
+switch nouvellement installé. Cette connexion en série nous
+permettait de mettre en place une interface de communication
+avec nos ingénieurs d'OBS\footnote{OBS : Orange Business Services},
+qui étaient situés à distance.
+Grâce à cette connexion, nos ingénieurs pouvaient alors prendre
+la main de notre PC et injecter
+la configuration spécifique des switchs de manière à les adapter
+aux besoins et aux exigences de l'entreprise.
+Une fois la configuration injectée, nous devions alors brasser 
+les câbles des différents postes de travail sur les nouveaux switchs
+en fonction des positions qui nous étaient indiquées par les
+ingénieurs ayant fait la configuration.
+
+\subsubsection{Déroulement}
+Le déroulement de la mission était organisé de manière à optimiser
+notre efficacité tout en minimisant les interruptions. Avec une
+dizaine de salles où nous devions intervenir, nous avons mis en place une stratégie
+bien coordonnée pour maximiser notre productivité. Pendant que je
+prenais en charge le matériel nécessaire pour une salle donnée,
+j'installais les nouveaux switchs dans les baies de brassage
+correspondantes. Pendant ce temps, mon collègue Alain se chargeait
+de connecter son PC aux switchs fraîchement installés, permettant
+ainsi aux ingénieurs de procéder à la configuration à distance.
+
+L'un des aspects clés de notre approche était de maintenir un
+rythme fluide. Pour ce faire, j'anticipais généralement en ayant
+une à deux salles d'avance. Cela signifiait
+que dès qu'une salle était terminée, nous pouvions immédiatement
+passer à la suivante, minimisant ainsi toute perte de temps entre
+les installations. Pour me guider dans l'entreprise Wrigley et
+m'assurer de trouver rapidement chaque salle, j'étais accompagné
+par un membre du personnel de Wrigley qui connaissait bien les locaux.
+Cette collaboration efficace nous a permis de mener à bien la mission
+de manière organisée et efficiente.
+
+\subsubsection{Corrélations avec le B.U.T.}
+Au cours de ma mission, j'ai eu l'opportunité de mettre en
+pratique les compétences acquises lors de ma formation au BU.T.
+L'une des facettes les plus marquantes de cette expérience a
+été ma capacité à comprendre et à interagir avec les ingénieurs
+d'OBS chargés de configurer les nouveaux switchs Cisco.
+
+En effet, lors de la configuration à distance des switchs,
+j'ai pu identifier et reconnaître des commandes que j'avais
+précédemment étudiées à l'IUT. Cela signifie que lorsque les
+ingénieurs d'OBS ont commencé à entrer des commandes pour
+configurer les switchs, j'ai pu suivre et comprendre le processus,
+car il s'agissait souvent des mêmes commandes que j'avais apprises à
+l'IUT. Cette corrélation entre ce que j'avais appris et ce que
+je voyais en action sur le terrain m'a permis d'avoir une
+compréhension approfondie de la configuration des switchs Cisco.
+
+Par exemple, lorsqu'ils ont configuré les ports VLAN
+pour segmenter le réseau ou encore quand ils ont 
+configuré les ports en mode trunk pour permettre
+la communication entre les switchs tout en 
+transportant le trafic de plusieurs VLAN.\\ 
+
+\newpage
 \section{Annexes}
 \end{document}
