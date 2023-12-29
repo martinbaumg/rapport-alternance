@@ -13,21 +13,23 @@
 \contentsline {subsubsection}{\numberline {3.3.3}Tests et vérifications}{10}{subsubsection.3.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.4}Difficultés rencontrées}{10}{subsubsection.3.3.4}%
 \contentsline {subsubsection}{\numberline {3.3.5}Ma contribution à l'innovation}{11}{subsubsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.4}Installation experte}{12}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Présentation}{12}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}La prestation installation experte}{12}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Conclusion}{14}{subsubsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.5}Les VQSE (Vérification Qualité Sécurité Environnement)}{15}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Explications}{15}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}VQSE à froid}{15}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}VQSE à chaud}{15}{subsubsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.6}Les dépannages}{17}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Mon process de dépannage fibre}{17}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Les SAV OPO}{18}{subsubsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.7}Les expertises}{19}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Ma mission chez Wrigley}{20}{subsection.3.8}%
-\contentsline {subsubsection}{\numberline {3.8.1}Mise en contexte}{20}{subsubsection.3.8.1}%
-\contentsline {subsubsection}{\numberline {3.8.2}Objectif}{20}{subsubsection.3.8.2}%
-\contentsline {subsubsection}{\numberline {3.8.3}Déroulement}{20}{subsubsection.3.8.3}%
-\contentsline {subsubsection}{\numberline {3.8.4}Corrélations avec le B.U.T.}{21}{subsubsection.3.8.4}%
-\contentsline {section}{\numberline {4}Annexes}{22}{section.4}%
+\contentsline {subsubsection}{\numberline {3.3.6}Les similitudes avec l'IUT}{12}{subsubsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.4}Installation experte}{13}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Présentation}{13}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}La prestation installation experte}{13}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Conclusion}{15}{subsubsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.5}Les VQSE (Vérification Qualité Sécurité Environnement)}{16}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Explications}{16}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}VQSE à froid}{16}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}VQSE à chaud}{16}{subsubsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.6}Les dépannages}{18}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Mon process de dépannage fibre}{18}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Les SAV OPO}{19}{subsubsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.7}Les expertises}{20}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Ma mission chez Wrigley}{21}{subsection.3.8}%
+\contentsline {subsubsection}{\numberline {3.8.1}Mise en contexte}{21}{subsubsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.2}Objectif}{21}{subsubsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.3}Déroulement}{21}{subsubsection.3.8.3}%
+\contentsline {subsubsection}{\numberline {3.8.4}Corrélations avec le B.U.T.}{22}{subsubsection.3.8.4}%
+\contentsline {section}{\numberline {4}Conclusion}{23}{section.4}%
+\contentsline {section}{\numberline {5}Annexes}{24}{section.5}%
