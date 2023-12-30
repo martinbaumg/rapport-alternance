@@ -8,6 +8,9 @@
 \usepackage{wrapfig}
 \usepackage{mwe}
 
+\usepackage[toc,page,header]{appendix}
+\usepackage{minitoc}
+
 
 \usepackage{xcolor}
 \definecolor{codeviolet}{rgb}{0.3,0.0,0.3}
@@ -138,9 +141,12 @@
 	
 \end{remerciements}
 \newpage
+\doparttoc
 \tableofcontents
 \newpage
 \listoffigures
+\newpage
+\part{\Large{Corpus}}
 \newpage
 \pagestyle{fancy}
 \section{Préambule}
@@ -1125,8 +1131,21 @@ obtenus pendant cette période formatrice. Mon ambition est de contribuer
 avec innovation et efficacité aux solutions avant-vente d'Orange, en
 apportant ma vision et mon expertise technique au service de la stratégie
 de l'entreprise.
+\newpage
+\pagestyle{empty}
+\appendix
+\part{\Large{Annexes}}
+\newpage
+\parttoc 
+
 
 \newpage
-\section{Annexes}
+\pagestyle{fancy}
+\section{Glossaire}
+
+\section{Bibliographie}
+
+\section{Images}
+
 \end{document}
 
