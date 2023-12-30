@@ -1,13 +1,13 @@
 \babel@toc {french}{}\relax 
-\contentsline {xpart}{\Large {Corpus}}{4}{part.1}%
+\contentsline {xpart}{\Large {Rapport}}{4}{part.1}%
 \contentsline {xsect}{Préambule}{5}{part.1}%
 \contentsline {xsect}{Présentation de l'entreprise}{6}{section.1}%
 \contentsline {figure}{\numberline {1}{\ignorespaces L'équipe GP 67\relax }}{7}{figure.caption.5}%
 \contentsline {xsect}{Mes missions}{8}{figure.caption.5}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Poste Mittel 67i\relax }}{9}{figure.caption.6}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Yealink W76P\relax }}{9}{figure.caption.7}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Accueil de l'interface de gestion\relax }}{10}{figure.caption.8}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Configuration des postes\relax }}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Poste Mittel 67i \cite {r1}\relax }}{9}{figure.caption.6}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Yealink W76P \cite {r2}\relax }}{9}{figure.caption.7}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Accueil de l'interface de gestion \cite {r3}\relax }}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Configuration des postes \cite {r4}\relax }}{10}{figure.caption.9}%
 \contentsline {figure}{\numberline {6}{\ignorespaces Maquette explicative\relax }}{12}{figure.caption.10}%
 \contentsline {figure}{\numberline {7}{\ignorespaces PB en chambre\relax }}{15}{figure.caption.11}%
 \contentsline {figure}{\numberline {8}{\ignorespaces PB poteau\relax }}{15}{figure.caption.11}%
@@ -18,5 +18,6 @@
 \contentsline {xsect}{Conclusion}{24}{subsubsection.3.8.4}%
 \contentsline {xpart}{\Large {Annexes}}{25}{part.2}%
 \contentsline {xsect}{Glossaire}{27}{part.2}%
-\contentsline {xsect}{Bibliographie}{27}{appendix.A}%
-\contentsline {xsect}{Images}{27}{appendix.B}%
+\contentsline {xsect}{Bibliographie}{28}{table.1}%
+\contentsline {xsect}{Images}{29}{section*.16}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Maquette explicative\relax }}{29}{figure.caption.17}%

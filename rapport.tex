@@ -10,6 +10,57 @@
 
 \usepackage[toc,page,header]{appendix}
 \usepackage{minitoc}
+\usepackage[backref=page,plainpages=false,pdfpagelabels,colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
+
+
+\usepackage{ragged2e}
+\usepackage[table, dvipsnames]{xcolor}
+\usepackage[style=listgroup,acronym,toc]{glossaries}
+
+\setglossarystyle{long}
+
+\newacronymstyle{ex-footnote}%
+{%
+  \GlsUseAcrEntryDispStyle{footnote}%
+}%
+{%
+  \GlsUseAcrStyleDefs{footnote}%
+  \renewcommand*{\genacrfullformat}[2]{%
+   \firstacronymfont{\glsentryshort{##1}}##2%
+   \expandafter\footnote\expandafter{\expandafter\glsentrylong\expandafter{##1}}%
+  }%
+  \renewcommand*{\Genacrfullformat}[2]{%
+   \firstacronymfont{\Glsentryshort{##1}}##2%
+   \expandafter\footnote\expandafter{\expandafter\glsentrylong\expandafter{##1}}%
+  }%
+  \renewcommand*{\genplacrfullformat}[2]{%
+   \firstacronymfont{\glsentryshortpl{##1}}##2%
+   \expandafter\footnote\expandafter{\expandafter\glsentrylongpl\expandafter{##1}}%
+  }%
+  \renewcommand*{\Genplacrfullformat}[2]{%
+   \firstacronymfont{\Glsentryshortpl{##1}}##2%
+   \expandafter\footnote\expandafter{\expandafter\glsentrylongpl\expandafter{##1}}%
+  }%
+}
+
+\setacronymstyle{ex-footnote}
+\makeglossaries
+ 
+\newacronym{UCI}{UCI}{Unité Client Intervention}
+\newacronym{FTTH}{FTTH}{Fiber To The Home}
+\newacronym{D2}{D2}{Réseau de distribution entre le PM et PB}
+\newacronym{PM}{PM}{Point de Mutualisation}
+\newacronym{PB}{PB}{Point de Branchement}
+\newacronym{PTO}{PTO}{Prise Terminale Optique}
+\newacronym{OBS}{OBS}{Orange Business Services}
+\newacronym{GP}{GP}{Grand Public}
+\newacronym{SAV}{SAV}{Service Après Vente}
+\newacronym{PMI}{PMI}{Point de Mutualisation Immeuble}
+\newacronym{PMZ}{PMZ}{Point de Mutualisation de Zone de 360 logements}
+
+
+
+
 
 
 \usepackage{xcolor}
@@ -80,7 +131,6 @@
 }{\end{abstract}}
 
 \pgfplotsset{width=10cm,compat=1.9}
-\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \lhead{}
@@ -146,7 +196,7 @@
 \newpage
 \listoffigures
 \newpage
-\part{\Large{Corpus}}
+\part{\Large{Rapport}}
 \newpage
 \pagestyle{fancy}
 \section{Préambule}
@@ -156,10 +206,11 @@ Orange est un leader mondial dans les télécommunications et les services mobil
 L'entreprise, engagée dans l'innovation et la connectivité, joue un rôle majeur dans la
 transformation numérique en offrant des solutions variées aux particuliers et aux entreprises.\\
 
-Pendant mon alternance, j'ai travaillé au sein du département UCI\footnote{\vspace{-1cm}UCI EST : Unité Client Intervention} EST.
+Pendant mon alternance, j'ai travaillé au sein du département \gls{UCI} EST.
 En tant que technicien d'invervention grand public, j'ai contribué aux projets de l'équipe, collaboré avec des
 professionnels et développé une compréhension des défis et des opportunités
 de cette entreprise.\\
+
 
 L'engagement d'Orange envers l'excellence et l'innovation a profondément influencé ma vision
 professionnelle. Ce rapport vise à refléter et à analyser les enseignements tirés de cette
@@ -235,8 +286,8 @@ variées, comme des
 expertises, des installations, des dépannages et 
 des contrôles de qualité.\\
 
-Le but d'une expertise FTTH\footnote{FTTH : Fiber To The Home} est de se rendre chez un client
-qui a déjà eu plusieurs rendez-vous SAV et qui n'a pas eu de solution. 
+Le but d'une expertise \gls{FTTH} est de se rendre chez un client
+qui a déjà eu plusieurs rendez-vous \gls{SAV} et qui n'a pas eu de solution. 
 Notre objectif est alors d'en apporter une et que l'on 
 soit le dernier technicien à se rendre chez le client.\\
 
@@ -277,7 +328,7 @@ en plus de toutes les prestations sur le réseau cuivre.\\
 	\caption{L'équipe GP 67}
 \end{figure}
 Nous pouvons voir ci-dessus que je me trouve dans 
-une équipe de 10 techniciens d'intervention grand public, 
+une équipe de 10 techniciens d'intervention \gls{GP}, 
 couvrant tout le département du bas-rhin. Nous sommes 
 la plupart du temps répartis par zones géographiques. 
 Par exemple Félix Camille est du secteur de Hagenau, tandis 
@@ -319,7 +370,7 @@ alors qu'ils étaient dans les mêmes locaux. Je me rappelle que Félix m'avait
 montré comment faire la première puis, il m'avait laissé
 faire la seconde. Assez facile me direz-vous, mais
 c'était sans compter sur le stress de découvrir 
-une nouvelle solution, avec un "process"\footnote{Process : terme utilisé pour désigner une procédure spécifique à suivre} que je ne connaissais 
+une nouvelle solution, avec un process que je ne connaissais 
 pas. C'était les débuts de l'apprentissage. 
 
 \subsection{Connect Pro}
@@ -359,7 +410,7 @@ facilite la gestion et le suivi des messages importants.\\
 \setlength{\intextsep}{0pt}
 \begin{wrapfigure}[20]{R}{6.5cm}
 	\includegraphics[scale=.5]{img/mittel.jpg}
-	\caption{Poste Mittel 67i}
+	\caption{Poste Mittel 67i \cite{r1}}
 \end{wrapfigure}
 De plus, Connect Pro propose une variété
 d'options en matière de téléphones, que
@@ -376,7 +427,7 @@ qui est un poste filaire, ainsi qu'un poste sans fil
 Yealink W76P.\\
 \begin{wrapfigure}[20]{R}{6.5cm}
 	\includegraphics[scale=.6]{img/yealink.png}
-	\caption{Yealink W76P}
+	\caption{Yealink W76P \cite{r2}}
 \end{wrapfigure}
 
 Bien sûr, il est important de noter que l'offre
@@ -439,7 +490,7 @@ de l'offre Connect Pro :
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=1.3]{img/accueil.png}
-	\caption{Accueil de l'interface de gestion}
+	\caption{Accueil de l'interface de gestion \cite{r3}}
 \end{figure}
 
 Nous retrouvons alors tous nos postes 
@@ -449,7 +500,7 @@ les configurer selon les besoins de client.
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.65]{img/configuration.jpg}
-	\caption{Configuration des postes}
+	\caption{Configuration des postes \cite{r4}}
 \end{figure}
 
 \newpage
@@ -594,7 +645,7 @@ Plusieurs étapes essentielles sont nécessaires pour garantir
 la réussite d'une installation experte, chacune contribuant à offrir
 une expérience optimale au client. La première étape consiste à
 effectuer une vérification du dossier client, en examinant notamment
-si les positions au point de mutualisation (PM) sont clairement indiquées.
+si les positions au \gls{PM} sont clairement indiquées.
 Lorsque ces informations sont disponibles, nous nous rendons
 directement au point de mutualisation, où nous procédons à la
 mise en place d'une jarretière optique. Cette étape permet d'établir
@@ -602,17 +653,17 @@ la connexion du client au réseau Orange.\\
 
 Cependant, dans le cas où les positions au point de mutualisation ne
 sont pas préalablement renseignées, une autre démarche s'impose.
-Nous devons alors nous diriger vers le point de branchement (PB)
+Nous devons alors nous diriger vers le \gls{PB}
 pour identifier la couleur du tube et de la fibre client.
 Cette opération est réalisée à l'aide d'un laser émis depuis
-la prise fibre client (PTO), permettant ainsi d'obtenir les
+la \gls{PTO}, permettant ainsi d'obtenir les
 informations nécessaires. Une fois en possession de ces données,
 nous sollicitons un service spécialisé, "l'appui à chaud". Cette
 équipe dédiée est en mesure de nous fournir la position exacte du
 client du côté client, facilitant ainsi la connexion au réseau Orange.\\
 
 \newpage
-Ci-après, nous pouvons observer deux types de points de branchement (PB)
+Ci-après, nous pouvons observer deux types de points de branchement
 différents. Le premier situé en chambre. Tandis que le deuxième est un PB que l'on peut
 rencontrer est positionné sur un poteau, principalement dans les zones où
 les câblages sont aériens.
@@ -630,8 +681,8 @@ les câblages sont aériens.
 \end{figure}
 
 Comme pour les points de branchement, il existe plusieurs 
-types de points de mutualisation (PM). Les plus courants 
-sont les PMI et les PMZ du type que nous pouvons 
+types de points de mutualisation. Les plus courants 
+sont les \gls{PMI} et les \gls{PMZ} du type que nous pouvons 
 observer en image ci-dessous. Les PMI sont des points de mutualisation
 immeubles, tandis que les PMZ sont des points de mutualisation
 "de rue".\\
@@ -874,7 +925,7 @@ ou déplacé des meubles récemment. Si la panne est survenue après
 des travaux, il est fort probable que le client ait sectionné la fibre.
 Dans ce cas, je me rends chez le client pour tenter de ressouder si possible, 
 ou alors si le problème se situe
-en D2\footnote{D2 : Réseau de distribution entre le PM et le PB} 
+en \gls{D2}
 j'appelle Orange pour qu'ils s'occupent de faire intervenir l'opérateur
 d'infrastructure.\\
 
@@ -1031,7 +1082,7 @@ Une fois le matériel en place, une étape cruciale de la mission
 était de connecter notre PC en utilisant une connexion série au
 switch nouvellement installé. Cette connexion nous
 permettait de mettre en place une interface de communication
-avec les ingénieurs d'OBS\footnote{OBS : Orange Business Services},
+avec les ingénieurs d'\gls{OBS},
 qui étaient situés à distance.
 Grâce à cette connexion, les ingénieurs pouvaient alors prendre
 la main de notre PC et injecter
@@ -1141,11 +1192,26 @@ de l'entreprise.
 
 \newpage
 \pagestyle{fancy}
+\glsaddall
+
 \section{Glossaire}
+\begingroup
+\renewcommand{\addcontentsline}[3]{}
+\printglossary[type=\acronymtype, title=Acronymes]
+\endgroup
 
+\newpage
 \section{Bibliographie}
+\bibliographystyle{elsarticle-num}
+\bibliography{rapport.bib}
 
+\newpage
 \section{Images}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.45\textwidth]{img/maquette.png}
+	\caption{Maquette explicative}
+\end{figure}
 
 \end{document}
 

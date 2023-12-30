@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{r1}
+\href{https://boutiquepro.orange.fr/equipements-mitel-67i.html}{Lien vers l'image}.
+\newline\urlprefix\url{https://boutiquepro.orange.fr/equipements-mitel-67i.html}
+
+\bibitem{r2}
+\href{https://www.officeeasy.fr/yealink-w76p.html}{Lien vers l'image}.
+\newline\urlprefix\url{https://www.officeeasy.fr/yealink-w76p.html}
+
+\bibitem{r3}
+\href{https://assistancepro.orange.fr/}{Lien vers l'image}.
+\newline\urlprefix\url{https://assistancepro.orange.fr/}
+
+\bibitem{r4}
+\href{https://assistancepro.orange.fr/}{Lien vers l'image}.
+\newline\urlprefix\url{https://assistancepro.orange.fr/}
+
+\end{thebibliography}
