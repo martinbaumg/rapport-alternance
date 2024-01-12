@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.23)  12 JAN 2024 11:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.23)  12 JAN 2024 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1068,26 +1068,26 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 ) (./rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Info: Redefining \degres on input line 149.
-LaTeX Info: Redefining \up on input line 149.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Info: Redefining \degres on input line 152.
+LaTeX Info: Redefining \up on input line 152.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -1181,7 +1181,7 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-Package hyperref Info: Link coloring ON on input line 149.
+Package hyperref Info: Link coloring ON on input line 152.
 (./rapport.out) (./rapport.out)
 \@outlinefile=\write9
 \openout9 = `rapport.out'.
@@ -1189,19 +1189,19 @@ Package hyperref Info: Link coloring ON on input line 149.
  (./rapport.glsdefs)
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
-LaTeX Info: Redefining \microtypecontext on input line 149.
-Package microtype Info: Applying patch `item' on input line 149.
-Package microtype Info: Applying patch `toc' on input line 149.
-Package microtype Info: Applying patch `eqnum' on input line 149.
-Package microtype Info: Applying patch `footnote' on input line 149.
-Package microtype Info: Applying patch `verbatim' on input line 149.
+LaTeX Info: Redefining \microtypecontext on input line 152.
+Package microtype Info: Applying patch `item' on input line 152.
+Package microtype Info: Applying patch `toc' on input line 152.
+Package microtype Info: Applying patch `eqnum' on input line 152.
+Package microtype Info: Applying patch `footnote' on input line 152.
+Package microtype Info: Applying patch `verbatim' on input line 152.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 149.
+LaTeX Info: Redefining \showhyphens on input line 152.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: Adjustment of character kerning enabled.
@@ -1211,32 +1211,32 @@ Package microtype Info: Switching off French babel's active characters (:;!?).
 (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-<img/uha.png, id=159, 1027.84pt x 225.84375pt>
+<img/uha.png, id=155, 1027.84pt x 225.84375pt>
 File: img/uha.png Graphic file (type png)
 <use img/uha.png>
-Package pdftex.def Info: img/uha.png  used on input line 165.
+Package pdftex.def Info: img/uha.png  used on input line 168.
 (pdftex.def)             Requested size: 227.62206pt x 50.01315pt.
-<img/orange.png, id=161, 2055.68pt x 2055.68pt>
+<img/orange.png, id=157, 2055.68pt x 2055.68pt>
 File: img/orange.png Graphic file (type png)
 <use img/orange.png>
-Package pdftex.def Info: img/orange.png  used on input line 169.
+Package pdftex.def Info: img/orange.png  used on input line 172.
 (pdftex.def)             Requested size: 45.52718pt x 45.51367pt.
  [1
 
 \openout4 = `rapport.ist'.
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./img/uha.png> <./img/orange.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
@@ -1244,10 +1244,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--191
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.195 \newpage
+l.198 \newpage
                [1]
 Package minitoc Info: I0025
-(minitoc)             PREPARING PARTTOCS FROM rapport.toc on input line 197.
+(minitoc)             PREPARING PARTTOCS FROM rapport.toc on input line 200.
 Package minitoc Info: I0033
 (minitoc)             Writing rapport.ptc1.
 \openout3 = `rapport.ptc1'.
@@ -1265,214 +1265,207 @@ Package minitoc Info: I0033
 \openout11 = `rapport.lof'.
 
  [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--210
+Underfull \hbox (badness 10000) in paragraph at lines 210--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--236
+Underfull \hbox (badness 10000) in paragraph at lines 235--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--242
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--249
+Underfull \hbox (badness 10000) in paragraph at lines 246--252
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 272--279
+Underfull \hbox (badness 10000) in paragraph at lines 275--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--283
+Underfull \hbox (badness 10000) in paragraph at lines 283--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--292
+Underfull \hbox (badness 10000) in paragraph at lines 287--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--313
+Underfull \hbox (badness 10000) in paragraph at lines 310--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--318
+Underfull \hbox (badness 10000) in paragraph at lines 317--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--323
+Underfull \hbox (badness 10000) in paragraph at lines 322--326
 
  []
 
-[6]
-Missing character: There is no ] in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 355--364
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 403--413
+[6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 420--430
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--424
+Underfull \hbox (badness 10000) in paragraph at lines 431--441
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--432
+Underfull \hbox (badness 10000) in paragraph at lines 442--449
 
  []
 
-[8]
-<img/mittel.jpg, id=298, 372.64218pt x 246.1697pt>
+[9]
+<img/mittel.jpg, id=295, 372.64218pt x 246.1697pt>
 File: img/mittel.jpg Graphic file (type jpg)
 <use img/mittel.jpg>
-Package pdftex.def Info: img/mittel.jpg  used on input line 437.
+Package pdftex.def Info: img/mittel.jpg  used on input line 454.
 (pdftex.def)             Requested size: 186.32063pt x 123.08453pt.
 
-Overfull \hbox (1.37773pt too wide) in paragraph at lines 437--438
+Overfull \hbox (1.37773pt too wide) in paragraph at lines 454--455
 [][] 
  []
 
-<img/yealink.png, id=301, 376.40625pt x 376.40625pt>
+<img/yealink.png, id=298, 376.40625pt x 376.40625pt>
 File: img/yealink.png Graphic file (type png)
 <use img/yealink.png>
-Package pdftex.def Info: img/yealink.png  used on input line 454.
+Package pdftex.def Info: img/yealink.png  used on input line 471.
 (pdftex.def)             Requested size: 225.84547pt x 225.84547pt.
 
-Overfull \hbox (40.90257pt too wide) in paragraph at lines 454--455
+Overfull \hbox (40.90257pt too wide) in paragraph at lines 471--472
 [][] 
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 440--457
+Underfull \hbox (badness 1107) in paragraph at lines 457--474
 \T1/cmr/m/n/12 (+20) des té-lé-phones sans fil pour une mo-bi-lité ac-
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 440--457
+Underfull \hbox (badness 1527) in paragraph at lines 457--474
 \T1/cmr/m/n/12 (+20) crue, des té-lé-phones fi-laires pour une uti-li-sa-
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 440--457
+Underfull \hbox (badness 3439) in paragraph at lines 457--474
 \T1/cmr/m/n/12 (+20) l'ap-pli-ca-tion Cisco We-bex. Cela si-gni-fie que
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 440--457
+Underfull \hbox (badness 1242) in paragraph at lines 457--474
 \T1/cmr/m/n/12 (+20) nous pou-vons adap-ter la so-lu-tion de té-lé-pho-
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 440--457
+Underfull \hbox (badness 1014) in paragraph at lines 457--474
 \T1/cmr/m/n/12 (+20) en-vi-ron-ne-ment de tra-vail. Ci-contre nous pou-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--457
+Underfull \hbox (badness 10000) in paragraph at lines 457--474
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--465
+Underfull \hbox (badness 10000) in paragraph at lines 475--482
 
  []
 
 
-Underfull \hbox (badness 7291) in paragraph at lines 466--480
+Underfull \hbox (badness 7291) in paragraph at lines 483--497
 \T1/cmr/m/n/12 (+20) Pro pour les en-tre-prises si-tuées dans des
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 466--480
+Underfull \hbox (badness 5878) in paragraph at lines 483--497
 \T1/cmr/m/n/12 (+20) Cuivre" Cette so-lu-tion est dis-po-nible dans
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 466--480
+Underfull \hbox (badness 2521) in paragraph at lines 483--497
 \T1/cmr/m/n/12 (+20) ces ré-gions, mais elle est gé-né-ra-le-ment li-mi-
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 466--480
+Underfull \hbox (badness 1127) in paragraph at lines 483--497
 \T1/cmr/m/n/12 (+20) tée en termes de ca-pa-cité et de fonc-tion-na-li-
  []
 
 
-Underfull \hbox (badness 1490) in paragraph at lines 466--480
+Underfull \hbox (badness 1490) in paragraph at lines 483--497
 \T1/cmr/m/n/12 (+20) tés par rap-port à la ver-sion fibre. En gé-né-
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 466--480
+Underfull \hbox (badness 1728) in paragraph at lines 483--497
 \T1/cmr/m/n/12 (+20) ral, les en-tre-prises optent pour Connect Pro
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 466--480
+Underfull \hbox (badness 6526) in paragraph at lines 483--497
 \T1/cmr/m/n/12 (+20) Cuivre uni-que-ment lors-qu'elles ont des be-
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 466--480
+Underfull \hbox (badness 4872) in paragraph at lines 483--497
 \T1/cmr/m/n/12 (+20) 1 ou 2 postes, car les ré-seaux cuivre ne
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 466--480
+Underfull \hbox (badness 2359) in paragraph at lines 483--497
 \T1/cmr/m/n/12 (+20) per-mettent pas une uti-li-sa-tion aussi éten-due
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 466--480
+Underfull \hbox (badness 2894) in paragraph at lines 483--497
 \T1/cmr/m/n/12 (+20) ni des fonc-tion-na-li-tés aussi avan-cées que la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--480
+Underfull \hbox (badness 10000) in paragraph at lines 483--497
 
  []
 
-[9 <./img/mittel.jpg> <./img/yealink.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 489--498
+[10 <./img/mittel.jpg> <./img/yealink.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 506--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--504
+Underfull \hbox (badness 10000) in paragraph at lines 516--521
 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 509.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 526.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
@@ -1481,220 +1474,220 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--512
+Underfull \hbox (badness 10000) in paragraph at lines 522--529
 
  []
 
-<img/accueil.png, id=310, 246.9225pt x 109.91063pt>
+<img/accueil.png, id=307, 246.9225pt x 109.91063pt>
 File: img/accueil.png Graphic file (type png)
 <use img/accueil.png>
-Package pdftex.def Info: img/accueil.png  used on input line 517.
+Package pdftex.def Info: img/accueil.png  used on input line 534.
 (pdftex.def)             Requested size: 320.99918pt x 142.88377pt.
-<img/configuration.jpg, id=313, 493.845pt x 180.675pt>
+<img/configuration.jpg, id=310, 493.845pt x 180.675pt>
 File: img/configuration.jpg Graphic file (type jpg)
 <use img/configuration.jpg>
-Package pdftex.def Info: img/configuration.jpg  used on input line 527.
+Package pdftex.def Info: img/configuration.jpg  used on input line 544.
 (pdftex.def)             Requested size: 320.99544pt x 117.43735pt.
-[10 <./img/accueil.png> <./img/configuration.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 533--542
+[11 <./img/accueil.png> <./img/configuration.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 550--559
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--547
+Underfull \hbox (badness 10000) in paragraph at lines 560--564
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--555
+Underfull \hbox (badness 10000) in paragraph at lines 566--572
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--560
+Underfull \hbox (badness 10000) in paragraph at lines 573--577
 
  []
 
-[11]
-<img/maquette.png, id=327, 602.25pt x 1505.625pt>
+[12]
+<img/maquette.png, id=325, 602.25pt x 1505.625pt>
 File: img/maquette.png Graphic file (type png)
 <use img/maquette.png>
-Package pdftex.def Info: img/maquette.png  used on input line 591.
+Package pdftex.def Info: img/maquette.png  used on input line 608.
 (pdftex.def)             Requested size: 180.67639pt x 451.691pt.
- [12 <./img/maquette.png>] (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+ [13 <./img/maquette.png>] (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 624--630
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 643--650
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--659
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 669--678
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 679--689
+Underfull \hbox (badness 10000) in paragraph at lines 641--647
 
  []
 
 [14]
-<img/pbc.jpg, id=360, 1084.05pt x 1084.05pt>
+Underfull \hbox (badness 10000) in paragraph at lines 660--667
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 668--676
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--695
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--706
+
+ []
+
+[15]
+<img/pbc.jpg, id=357, 1084.05pt x 1084.05pt>
 File: img/pbc.jpg Graphic file (type jpg)
 <use img/pbc.jpg>
-Package pdftex.def Info: img/pbc.jpg  used on input line 698.
+Package pdftex.def Info: img/pbc.jpg  used on input line 715.
 (pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
-<img/pbp.jpg, id=361, 1084.05pt x 1084.05pt>
+<img/pbp.jpg, id=358, 1084.05pt x 1084.05pt>
 File: img/pbp.jpg Graphic file (type jpg)
 <use img/pbp.jpg>
-Package pdftex.def Info: img/pbp.jpg  used on input line 703.
+Package pdftex.def Info: img/pbp.jpg  used on input line 720.
 (pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
-<img/pmi.jpg, id=364, 1084.05pt x 1084.05pt>
+<img/pmi.jpg, id=361, 1084.05pt x 1084.05pt>
 File: img/pmi.jpg Graphic file (type jpg)
 <use img/pmi.jpg>
-Package pdftex.def Info: img/pmi.jpg  used on input line 717.
+Package pdftex.def Info: img/pmi.jpg  used on input line 734.
 (pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
-<img/pmz.jpg, id=365, 1084.05pt x 1084.05pt>
+<img/pmz.jpg, id=362, 1084.05pt x 1084.05pt>
 File: img/pmz.jpg Graphic file (type jpg)
 <use img/pmz.jpg>
-Package pdftex.def Info: img/pmz.jpg  used on input line 722.
+Package pdftex.def Info: img/pmz.jpg  used on input line 739.
 (pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
- [15 <./img/pbc.jpg> <./img/pbp.jpg> <./img/pmi.jpg> <./img/pmz.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 738--749
+ [16 <./img/pbc.jpg> <./img/pbp.jpg> <./img/pmi.jpg> <./img/pmz.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 755--766
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 756--765
+Underfull \hbox (badness 10000) in paragraph at lines 773--782
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 766--785
+Underfull \hbox (badness 10000) in paragraph at lines 783--802
 
  []
 
-[16] [17]
-<img/bok.jpg, id=383, 1084.05pt x 1084.05pt>
+[17] [18]
+<img/bok.jpg, id=381, 1084.05pt x 1084.05pt>
 File: img/bok.jpg Graphic file (type jpg)
 <use img/bok.jpg>
-Package pdftex.def Info: img/bok.jpg  used on input line 882.
+Package pdftex.def Info: img/bok.jpg  used on input line 899.
 (pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
-<img/bpb.jpg, id=384, 1084.05pt x 1084.05pt>
+<img/bpb.jpg, id=382, 1084.05pt x 1084.05pt>
 File: img/bpb.jpg Graphic file (type jpg)
 <use img/bpb.jpg>
-Package pdftex.def Info: img/bpb.jpg  used on input line 887.
+Package pdftex.def Info: img/bpb.jpg  used on input line 904.
 (pdftex.def)             Requested size: 182.09486pt x 182.08607pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 892--902
+Underfull \hbox (badness 10000) in paragraph at lines 909--919
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--908
+Underfull \hbox (badness 10000) in paragraph at lines 920--925
 
  []
 
-[18 <./img/bok.jpg> <./img/bpb.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 926--935
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 943--956
+[19 <./img/bok.jpg> <./img/bpb.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 943--952
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 957--961
+Underfull \hbox (badness 10000) in paragraph at lines 960--973
 
  []
 
-<img/olp.jpg, id=394, 1084.05pt x 1084.05pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--978
+
+ []
+
+<img/olp.jpg, id=391, 1084.05pt x 1084.05pt>
 File: img/olp.jpg Graphic file (type jpg)
 <use img/olp.jpg>
-Package pdftex.def Info: img/olp.jpg  used on input line 964.
+Package pdftex.def Info: img/olp.jpg  used on input line 981.
 (pdftex.def)             Requested size: 216.80615pt x 216.80615pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 968--980
+Underfull \hbox (badness 10000) in paragraph at lines 985--997
 
  []
 
-[19 <./img/olp.jpg>] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 1002--1008
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1009--1016
+[20 <./img/olp.jpg>] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1025
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1022
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1033
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1023--1031
+Underfull \hbox (badness 10000) in paragraph at lines 1034--1039
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1032--1047
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 1062--1068
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1048
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1079
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1064
 
  []
 
-[22] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 1158--1172
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 1175--1190
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1191--1206
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1096
 
  []
 
-[25] [26]
+[23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1189
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1208--1223
+
+ []
+
+[26] [27]
 \openout3 = `rapport.mtc'.
 
 \openout3 = `rapport.mtc'.
 
- (./rapport.ptc2) [27] (./rapport.acr) [28] (./rapport.bbl (./rapport.brf)
+ (./rapport.ptc2) [28] (./rapport.acr) [29] (./rapport.bbl (./rapport.brf)
 \tf@brf=\write12
 \openout12 = `rapport.brf'.
 
-) [29]
+) [30]
 File: img/maquette.png Graphic file (type png)
 <use img/maquette.png>
-Package pdftex.def Info: img/maquette.png  used on input line 1245.
+Package pdftex.def Info: img/maquette.png  used on input line 1262.
 (pdftex.def)             Requested size: 204.85846pt x 512.13547pt.
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
@@ -1707,25 +1700,25 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the rapport.log file.
 
-[30] (./rapport.aux)
+[31] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: A3B4CB26890CE880E352C56F2CCFBD68;5718.
+(rerunfilecheck)             Checksum: 7553B466B595F04CF0E94C2CDBE799A3;5600.
 Package rerunfilecheck Info: File `rapport.brf' has not changed.
-(rerunfilecheck)             Checksum: A5AD7AFD641BC9B83468FBAEA405FF19;338.
+(rerunfilecheck)             Checksum: C5F1ACB4E4D612217B92A9608F607321;340.
  ) 
 Here is how much of TeX's memory you used:
- 61160 strings out of 476025
- 1384479 string characters out of 5790017
- 2147147 words of memory out of 5000000
- 80205 multiletter control sequences out of 15000+600000
+ 63813 strings out of 476025
+ 1426835 string characters out of 5790017
+ 2149966 words of memory out of 5000000
+ 82853 multiletter control sequences out of 15000+600000
  537792 words of font info for 159 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 130i,11n,134p,2299b,2811s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 160i,11n,155p,2299b,4075s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on rapport.pdf (31 pages, 3469767 bytes).
+Output written on rapport.pdf (32 pages, 3471940 bytes).
 PDF statistics:
- 631 PDF objects out of 1000 (max. 8388607)
- 535 compressed objects within 6 object streams
- 125 named destinations out of 1000 (max. 500000)
- 49539 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 644 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 49531 words of extra memory for PDF output out of 51595 (max. 10000000)
 
