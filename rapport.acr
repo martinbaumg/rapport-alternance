@@ -3,6 +3,9 @@
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossentry{D2}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{19}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{28}}}%
+\glossentry{DIR}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{28}}}\glsgroupskip
 \glsgroupheading{E}\relax \glsresetentrylist %
 \glossentry{EXP}{\glossaryentrynumbers{\relax 
@@ -15,11 +18,13 @@
 		\setentrycounter[]{page}\glsnumberformat{28}}}\glsgroupskip
 \glsgroupheading{G}\relax \glsresetentrylist %
 \glossentry{GP}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{28}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
 \glossentry{OB}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{23\delimN 24}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{28}}}%
+\glossentry{OCSA}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{28}}}%
 \glossentry{OPO}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{19}\delimN 
